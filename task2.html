@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Listing</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+
+    <!-- Blog List -->
+    <section id="blog-list" class="blog-list"></section>
+
+    <!-- Blog Details (hidden until clicked) -->
+    <section id="blog-detail" class="blog-detail hidden">
+        <button onclick="goBack()" class="btn back-btn">⬅ Back</button>
+        <h2 id="detail-title"></h2>
+        <img id="detail-image" alt="Blog Image">
+        <p id="detail-content"></p>
+    </section>
+
+    <script src="task2.js"></script>
+</body>
+
+</html>
