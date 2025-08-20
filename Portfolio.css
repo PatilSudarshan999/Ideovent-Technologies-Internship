@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-shadow: #f9f9f9;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.mycontact {
+    font-size: 20px;
+    margin: -25px;
+}
+
+.about img {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10%;
+    margin: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about img:hover {
+    box-shadow: 3px 3px 7px grey;
+}
+
+#img {
+    text-align: center;
+    margin-top: 10 px;
+}
+
+.about {
+    width: 60%;
+    /* adjust width of paragraph box */
+    margin: 0 auto;
+    /* centers the box */
+    text-align: left;
+    /* text stays aligned to left inside */
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.skills {
+    padding: 20px;
+    text-align: center;
+}
+
+.skilss-list span {
+    display: inline-block;
+    background: #0077cc;
+    margin: 5px;
+    font-size: 25;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.Project {
+    text-align: center;
+    padding: 20px;
+}
+
+.projects {
+    background: #fff;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact {
+    text-align: center;
+    padding: 15px;
+}
