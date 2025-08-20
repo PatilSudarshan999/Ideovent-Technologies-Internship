@@ -1,0 +1,19 @@
+[{
+        "title": "Blog Title 1",
+        "description": "This is a short description of Blog 1.",
+        "image": "https://picsum.photos/400/200?random=1",
+        "content": "Full content of Blog 1 goes here. You can write detailed information, add images, and format it nicely."
+    },
+    {
+        "title": "Blog Title 2",
+        "description": "This is a short description of Blog 2.",
+        "image": "https://picsum.photos/400/200?random=2",
+        "content": "Full content of Blog 2 goes here. You can expand on topics and make it long enough to look like a real blog post."
+    },
+    {
+        "title": "Blog Title 3",
+        "description": "This is a short description of Blog 3.",
+        "image": "https://picsum.photos/400/200?random=3",
+        "content": "Full content of Blog 3 goes here. You can make it professional and structured like a real blog article."
+    }
+]
